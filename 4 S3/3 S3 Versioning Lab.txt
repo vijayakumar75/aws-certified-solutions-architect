@@ -1,0 +1,11 @@
+3 S3 Versioning Lab:
+---------------------
+
+
+Once Versioning is turned on it cannot be removed.
+
+It can be turned ON/OFF
+
+If you want to remove Versioning from a bucket, then create a new bucket and transfer contents to that new bucket.
+
+Storage size is the sum of all versions.

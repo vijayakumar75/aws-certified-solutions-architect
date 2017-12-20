@@ -1,0 +1,47 @@
+Launch an Ec2 Instance Part 2:
+================================
+
+* If Instance Status Checks fails, Reboot the system.
+* Be back up on  another hypervisor.
+
+
+* System Status Checks
+  ====================
+
+  * Reboot the instance.
+  * Go in and terminate the instance.
+
+ * Basic monitoring - 5 mins
+ * Detailed monitoring - every 1 min:
+
+
+ Lab Summary:
+ ============
+
+ How 2 create an Ec2
+ Private and public keys
+ SSH into Ec2
+ Security groups
+ How to enable access on Port 22,80,443.
+ Ec2 security patches and apache and web page and navigate t oit.
+ Public DNS and public IP addresses.
+ Tags
+
+
+ Exam Tips:
+ ===========
+
+ * Termination protection is turned off by default, you must turn it on.
+ * EBS backed instance, default action is for the root EBS volume to be deleted when  terminated.
+ * EBS root volumes of your Default AMI's are not encrypted.
+ * use third party tools to encrypt root volume.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+S3 CLI And Regions:
+===================
+
+* Create 3 S3 buckets in different regions.
+* Add files to each bucket.
+* Create a New Role with S3FullAccess
+* Spin an EC2 instance.
+* Attach that role to the running  EC2 instance.
+
+
+aws s3 cp --recursive s3://acloudguru-ap-south-east2 /home/ec2-user/	
+
+aws s3 cp --recursive s3://acloudguru-nv-123 /home/ec2-user/ --region us-east-1	

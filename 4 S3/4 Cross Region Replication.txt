@@ -1,0 +1,9 @@
+Cross-Region Replication:
+-------------------------
+
+* Versioning should be turned on for both S3 buckets
+* When you update a particular version of the file, the whole versions of the files are copied to S3.
+* Permissions also get replicated.
+* When you edit/delete objects over cross Region Replication, its gets edited/deleted in the destination bucket.
+* If Delete Marker is deleted in source, its doesn't get replicated in destination.
+

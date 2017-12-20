@@ -1,0 +1,25 @@
+Launch an EC2 Instance: 
+================
+
+
+
+Tags Help you to control costs.
+
+Security Groups:
+==============
+
+Virtual Firewall
+Control Traffic To instances.
+1 or more security groups for an ec2 instance
+First line of defense for hackers.
+
+
+
+Exam Question:
+==============
+
+* What happens to an EBS volume when you terminate an Ec2 Instance? Its gets deleted.
+
+	* yum install httpd -y
+	* cd /var/www/html/
+	* service httpd start ( to start apache)

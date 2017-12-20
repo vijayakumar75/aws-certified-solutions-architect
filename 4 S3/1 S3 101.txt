@@ -1,0 +1,76 @@
+S3 101:
+-------
+
+    S3 is Object based Storage
+    Data is stored across multiple facilities and devices
+    Designed to withstand Failure
+
+    * Object based
+    * 0- 5TB
+    * Unlimited Storage
+    * Files are stored in Buckets(Folder)
+    * S3 has universal namespace
+    * 200 code for successful upload
+
+    Data consistency Model:
+    ----------------------
+
+    * Read after write for PUTS for new objects
+    * Eventual consistency for overwrite PUTS and DELETES (Atomic updates)
+    * 
+
+S3:
+---
+
+    Key : name of the objects
+    Value : Data in sequence of bytes
+    VersionID: for versioning
+    Metadata: when file was created/updated
+    Subresources:
+
+        ACL
+        Torrent
+
+    99.99% availability
+    99.999999999% durability (11 * 9)
+
+Types:
+------
+
+    S3 - 99.99% availability and 99.999999999% durability
+    S3 - Infrequently Accessed
+    Reduced Redundant Storage - 99.99% availability and durability
+    Glacier - 3-5 hours to retrive
+
+Glacier:
+--------
+
+    * Data Archival
+    * Extremely Low cost
+    * 3-5 hours for retrive
+
+
+Charged:
+--------
+
+    * Storage
+    * Requests
+    * Storage Management Pricing
+    * Data Transfer Pricing
+    * Transfer Accelaration
+
+    * Fast and secure data transfer over long distances to end users and S3 Bucket
+    * Uses CloudFront's Edge Location
+
+
+Summary:
+--------
+
+Object based
+Do not install OS on it
+200 status for successful uploads
+
+
+* * Read S3 FAQ: * *
+
+

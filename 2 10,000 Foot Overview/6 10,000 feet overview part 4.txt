@@ -1,0 +1,33 @@
+10,000 Foot overivew Part 4:
+============================
+
+    * AI by Nick Boston
+
+    * Communicate to Amazon Alexa(Lex Service) using Amazon Echo.
+    * Talking to Lamda
+    * Now you can talk to Amazon Alexa using Lex Service
+    * Announced in re-Invent 2016.
+    * Polly (Text - to speech Service) 47 voices and 27 languages, O/p as mp3(synthesis markup language)
+    * Machine Learning - 
+    * Rekognition - Upload a picture and it gives details about the picture
+
+Messaging:
+----------
+
+    SNS - Notifications using email,sms and http/s endpoints
+    SQS - Decoupling your apps. Based on Queues. comes in all 3 exams.
+    SES - Simple Email Service.
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

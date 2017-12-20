@@ -1,0 +1,136 @@
+10,000 Feet Overview:
+--------------------
+
+    AWS Global Infrastructure
+    Networking and CDN
+    Migration
+    Compute
+    Storage
+    Databases
+    Analytics
+    Security & Identity
+    Management Tools
+    Developer Tools
+    Application Services
+    Mobile Services    
+    Business Productivity
+    IoT
+    Desktop and App Streaming
+    Game Development
+    Artificial Intelligence
+    Messaging
+
+Services needed to pass Solutions Architect:
+=============================================
+
+    AWS Global Infrastructure
+    Networking and CDN
+    Compute
+    Storage
+    Databases
+    Security & Identity
+    Management Tools
+    Desktop & App Streaming
+    Messaging
+
+AWS Global Infrastructure:
+==========================
+
+
+    * 18 Regions
+    * 49 Availability Zones
+
+
+    Regions:
+    --------
+            
+            * Geographical area where DC exist
+            * Each Region consist of 2 or more Availability Zones
+
+    Availability Zones:
+    -------------------
+
+        * Just a Data Center
+
+Edge Locations:
+---------------
+
+        * Edge Locations are CDN endpoints for cloudfront
+        * More Edge Locations than Regions
+        * currently 66 Edge Locations
+
+Regions:
+---------
+
+    North America:
+    ---------------
+
+        US East = Northern Virginia = AZ(5) (2006)
+        US East = Ohio = AZ(3) (2016)
+        US West = Oregon = AZ(3) (2011)
+        US East = Ohio
+        US East = Montreal
+        US East = US Gov Cloud
+        US West = Northern California = AZ(3)(2009)
+        AWS GovCloud = AZ(2)(2011)
+
+    South America:
+    -------------
+
+        Sao Paulo = AZ(3)(2011)
+
+    EMEA:
+    -----
+
+        Ireland = AZ(3)(2007)
+        Frankfurt = AZ(2)(2014)
+        London
+        Paris
+        Sweden
+        Baharin
+    
+    APAC:
+    -----
+
+        Tokyo = AZ(3)(2011)
+        Singapore = AZ(2)(2011)
+        Sydney = AZ(3)(2012)
+        Seoul = AZ(2)(2016)
+        Mumbai = AZ(2)(2016)
+        Beijing = AZ(2)
+        Nixijia
+        
+
+    
+    Networking & CDN:
+    ----------------
+
+        VPC: -  Virtual DC
+        Route53 - DNS Service (Route66)
+        Cloudfront - CDN Service
+        Direct Connect - connecting up your physical DC using a dedicated line into AWS (reliable internet connection)
+
+    Compute:
+    --------
+
+        EC2 - Elastic Compute cloud (VM's in cloud)
+        ECS - Elastic Container Service (support for Docker containers)
+        Elatic Beanstalk - New to AWS
+        Lambda - Serverless
+        Lightsail - small wordpress site
+
+        
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+    

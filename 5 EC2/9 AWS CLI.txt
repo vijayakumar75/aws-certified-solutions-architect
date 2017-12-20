@@ -1,0 +1,16 @@
+AWS CLI:
+========
+
+aws configure
+Access Key
+Secret Key
+Region: ap-south-1
+
+aws s3 ls
+
+cd .aws
+config credentials
+
+nano credentials
+
+

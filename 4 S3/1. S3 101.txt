@@ -1,0 +1,131 @@
+S3 101 :
+--------
+
+    * Simple Storage Service
+    * Provides developers with simple,durable and highly scalable object based storage.
+    * S3 is easy to use, with a simple web service interface to store and retrieve any amounts of data form anywhere on the web.
+    
+
+    * Founder of Dropbox started using S3.
+
+    * S3 is a safe place to store your files.
+    * It is an object based storage.
+    * The data is spread across multiple devices and facitlites.
+
+    * Objects are like videos, photos and PDF documents or word documents called as "Flat Files".
+    * Designed to withstand failure.
+
+    Basics:
+    --------
+
+    * S3 is object based i.e allows to store files.
+    * Files size  0 - 5TB
+    * Unlimited Storage
+    * Files are stored in "buckets" (i.e folders)
+    * S3 is a universal namespace,i/e names must be unique globally.
+    * Creates a DNS addres such as https://s3-eu-west1-amazonaws.com/acloudguru
+    * When you upload a file to S3, 200 code if successful.
+
+    Data consistency in S3:
+    ----------------------
+
+        * Read after write consistency for PUTS of new objects.
+        * Eventual consistency for overwrite PUTS and DELETES(can take some time to propogate)
+        * Updates to S3 are atomic.
+    
+    S3 is a simple key-value store:
+    ------------------------------
+
+        * S3 consists of Object based.
+        Objects consist of the following.
+            * Key (name of the object)
+            * Value (data and is made of sequence of bytes.)
+            * Version ID (Important for versioning)
+            * Metadata (data about data your are storing.) When was the file first created.
+            * Subresource
+                ACL - Who can access this object. On individual buckets
+                Torrent - BitTorrent protocol
+            
+            * 99.99% SLA.
+            * 99.9% availability
+            * 99.999999999% durability on S3 information. (11* 9's)
+            * Tiered storage options
+            * Lifecycle Management
+            * Versioning
+            * Encryption
+            * Secure your data using ACL's adnd Bucket Policies.
+
+    Different Storage tier's in S3:
+    ------------------------------
+
+        S3:
+            * 99.99%  availability
+            * 99.999999999% durability
+            * Stored redudantly across multiple devices in multiple facilites.
+            * Designed to sustain loss of 2 concurrent facilites.
+
+        
+        S3 - IA (Infrequently Accessed):
+        -------------------------------
+            * Example: Pay Slips
+            * For data that is acessed infrequently but requires rapid access when needed.
+            * Lower fee than S3 but retrieval fee is charged.
+        
+        Reduced Redudancy Storage
+        -------------------------
+
+            * Designed to provide 99.99% durability and 99.99% availability of objects over a given year.
+        
+        Glacier:
+        --------
+
+            * Low cost storage service for data archival.
+            * Stores data for as low as $0.01 and is optimized for data that is infrequently accessed.
+            * Takes 3-5 hours for to retrieval data from Glacier.
+
+        S3 Charges:
+        -----------
+
+            * Storage
+            * Requests
+            * Storage Management Pricing (adding tags to data to control costs)
+            * Data transfer pricing. (Data in is free and data replication is charged.)
+        
+        Transfer Accelaration - 
+        ----------------------
+
+            * Fast,easy and secure rransfer of files over long distances between end users and s3 buckets.
+            * Transfer Accelaration uses CloudFront globally distributed edge locations.
+            * As data arrives at an edge location, it is routed to Amazon S3 over a an optimized network path.
+            
+
+
+
+
+
+
+
+        
+
+
+            
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+

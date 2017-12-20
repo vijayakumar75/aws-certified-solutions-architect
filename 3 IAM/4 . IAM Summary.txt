@@ -1,0 +1,31 @@
+IAM Summary:
+------------
+
+    * Users
+    * Groups (Collection of Users)
+    * Roles
+    * Policies (JSON: Key/Value Pairs => Attribute:value)
+
+
+    What else have we learnt:
+    -----------------------
+
+        * IAM is Global
+        * Root account has complete admin access 
+        * New users have no permissions when created first.
+        * New users ares assigned access keys ID's and secret keys
+        * Access keys are not similar to password.
+        * You cannot log into the aws console using access keys.
+        * You can use it to thorugh API's and CLI's.
+        * You can view those keys only once. If we lose them, we have to regenerate the the same.
+        * So store it in secure location.
+
+
+    Root Account:
+    -------------
+
+        * Setup MFA While accessing your root account.
+        * Create and customize our own password rotation policy.
+    
+
+

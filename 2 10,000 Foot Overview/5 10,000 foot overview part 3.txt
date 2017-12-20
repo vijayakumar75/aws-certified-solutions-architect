@@ -1,0 +1,95 @@
+10,000 Feet Overview:
+----------------------
+
+Security & Identity:
+    --------------------
+
+        IAM - Identity and Access Management (very core for managing AWS Services)
+        Inspector - Agent installed on VM's to inspect those VM's
+        Certificate Manager - Free SSL Certificate for your Domain Name's
+        Directory Service - Way to use Active Directory with Microsoft on AWS
+        WAF - Web Application Firewall. Application Level protection to websites
+        Artifacts - Get documentation in AWS.
+        
+        IAM
+        Cognito
+        GuardDuty
+        Inspector
+        Amazon Macie
+        Certificate Manager
+        CloudHSM
+        Directory Service
+        WAF & Shield
+        Artifact
+
+    Management Tools:
+    ----------------
+
+        CloudWatch - Monitoring Performance of AWS Environments (EC2, S3, RAM and CPU) utilization.
+        CloudFormation -   Turn your infrastructure to code.
+        CloudTrail - Auditing AWS Resources
+        OpsWorks - Automating Deployments using Chef
+        Config - Automatically Monitors your Environment and gives warnings when it breaks. Creates an alert.
+        Service Catalog - 
+        Trusted Advisor - Designed by AWS Solutions architecture team. Automated way on scanning and giving more tips.
+
+    Application services:
+    ===================
+
+        Step Functions      - Way of visualizing  or any microservices its using.
+        SWF                 - Comes in exam. Automated task for humans.
+        API Gateway         - Door for apps' to Access backend data
+        AppStream           - Streaming Desktop apps to user's
+        Elastic Transcoder  - Changes video format.
+      
+
+    Developer Tools:
+    ----------------
+
+        CodeCommit - Github
+        Commit Build - Compiing your Code 
+        Code Deploy - Way of deploying code into EC2 Instances
+        Code Piplepine - Keeping track of versions of code.
+
+    Mobile Services:
+    -----------------
+
+    Mobile Hub - Own console for Mobile Apps 
+    Cognito  - Easy to let user sign up and sign into AWS using emails
+    DeviceFarm - Improve Quality of android,ios and Fireos apps using Physical devices on AWS DC
+    Mobile Analytics - Analyzing your mobile data.
+    Pinpoint - Pinpoint as Google Analytics for Mobile apps. Purchase history
+
+    Business Productivity:
+    =====================
+
+    WorkDocs - Storing important work Docs in CLoud. Similar to S3
+    WorkMail - Exchange in AWS
+    
+    IoT:
+    ----
+
+    Having Millions of Devices and keeping tracking them.
+    Own Ceritifaction
+
+
+    Desktop & App Streaming:
+    -------------------------
+
+    WorkSpaces - VDI way of having desktop in cloud. Connect through client
+    AppStream 2.0 - Similar to v1
+
+    Artificial Intelligence:
+    -------------------------
+
+    Fan of Elon Musk - Use AI
+
+    SuperIntelligence - Book for Elon Musk
+
+    
+
+
+
+
+
+

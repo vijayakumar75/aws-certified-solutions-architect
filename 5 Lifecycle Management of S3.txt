@@ -1,0 +1,51 @@
+Lifecycle Management of S3:
+----------------------------
+
+Create a bucket
+Enable Versioning
+Add Lifecycle Rules
+
+
+
+*  PUT to S3 => 30 days => S3 IA =>60 Days => Glacier
+
+
+Flow Chart:
+------------
+
+Object uploaded(current version)
+Moved to S3 -IA - 30 Days
+Moved to Glacier - 60 Days
+(Permanently Delete the file) Delete Marker overwrites current version - 61 Days
+
+
+
+Action on Current Version:
+--------------------------
+
+* Action on Current Version => 30 
+* Archive to Glacier Storage class => 60
+* Expires => adds a delete marker to the object.
+Expire 61 days after the object's creation date.
+
+
+Action on Previous Versions:
+----------------------------
+
+Transition to the Standard - IA - 30
+Archive to the Glacier Storage Class - 60]
+Permanently Delete - 425
+
+
+Transition to the Standard-IA - 30
+Archive to the Glacier Storage Class - 60
+
+
+Glacier not available in Singapore and Sao Paulo
+
+
+Action on incomplete multi-part uploads:
+----------------------------------------
+
+End and clean up multipart uploads - 
+

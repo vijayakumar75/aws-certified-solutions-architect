@@ -1,0 +1,92 @@
+History of AWS:
+==============
+
+Invention requires two things:
+
+	1. The ability to try a lot of experiments.
+	2. Not having to live with the collateral damage of failed experiments.
+
+	- Andy Jassy CEO of AWS
+
+
+
+
+	Timeline of AWS:
+	================
+
+		2003, Chris Pinkman and Benjamin Black presented a paper on what Amazon's own internal infrastructure should look like.
+		2004- SQS
+		2006 - AWS launched in 2006
+		2007 - 1,80,000 developer signed up
+		2010 - amazon.com moved to aws
+		2012 - First re-invent conference
+		2013 - Official Certification
+		2014 - 100% renewable energy
+		2015 - breaks its own revenue, $6 billion
+		2016 - Run rate of 313 USD
+		all other companies shrinked by 3%
+
+
+		2003 - Chris Pinkman and Benjamin Black
+		2004 - SQS
+		2006 - AWS launched in 2006.
+		2007 - 1,80,000 developer signed up.
+		2010 - amazon.com moved to aws
+		2012 - First re-invent conference
+		2013 - Official Certification
+		2014 - 100% renewable energy
+		2015 - breaks its own revenue, $6 billion
+		2016 - Run rate of 313 USD
+		all other companies shrinked by 3%
+
+		2003 -  Chris Pinkman and Benjamin Black
+		2004 - SQS
+		2006 - AWS launched in 2006.
+		2007 - 1,80,000 developer signed up.
+		2010 - amazon.com moved to aws
+		2012 - First re-invent conference
+		2013 - 
+
+
+
+		
+
+		
+		
+
+
+		
+		
+
+		
+
+
+
+		
+
+	
+
+
+
+
+	2011 - 82
+	2012- 159
+	2013 - 280
+	2014 - 516
+	2015 - 735
+	2016 - 1000+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+

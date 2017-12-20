@@ -1,0 +1,11 @@
+IAM Roles Lab:
+==============
+
+* What if Ec2 instance is compromised?
+* All Roles are Global
+* Possbile to attach a Role to an Running EC2 instance.
+
+
+
+
+

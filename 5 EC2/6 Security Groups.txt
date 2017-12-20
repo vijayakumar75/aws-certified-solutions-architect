@@ -1,0 +1,71 @@
+Security Groups:
+=================
+
+    * Virtual Firewall.
+    * Control traffic to instances.
+    * 1 instance can have multiple security groups.
+
+    * Connect to SSH
+
+
+    sudo su
+    service httpd start
+    yum update -y
+    yum install httpd -y
+
+	--------------------
+     chkconfig httpd on - To autostart apache on boot
+    -------------------
+
+
+     clear
+
+     cd /var/www/html
+     * nano index.html
+    
+    <html><h1>Hello Cloud Guru's </h1></html>
+
+
+     * Any rule that we apply to Security groups applies immediately.
+     * Security groups are stateful.
+     * When we add Inbound rule, outbound rule are added.
+
+
+     Outbound Rules:
+     ===============
+
+    * All Traffic
+    * Custom 0.0.0.0/0  
+
+
+    All = Default Security Group    
+
+
+    Combines multiple security Group to  add all ports.
+    Outbound rules don't matter whether you have inbound rules or not.
+
+
+
+Security Groups Lab:
+==================
+
+* All inbound traffic is blocked by Default.
+* All outbound traffic is allowed.
+* Changes to security group take effect immediately.
+* Any no of EC2 insances in a security Group.
+* Multiple security group attached to a single ec2 instance.
+* Security groups are stateful.
+* If you create an inbound rule allowing traffic, in that traffic is automatically allowed back out again.
+* Cannot block specific IP address using Security Groups
+------------------------------------------------------
+* Only Allow Traffic, Cannot deny traffic or IP address.
+-------------------------------------------------------
+
+* Instead use Network Access control lists.
+------------------------------------------------
+* You can specify allow rules but not deny rules.
+--------------------------------------------------
+
+
+
+

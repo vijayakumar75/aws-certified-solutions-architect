@@ -1,0 +1,163 @@
+Elastic Compute Cloud: (EC2)
+=======================
+
+ * web service that provides resizable compute capacity on the cloud.
+ * Reduces time to boot servers allowing you to quickly scale up and down.
+ * Pay only for the capacity that was acutally used.
+ * provides developers the tools required to build failure resilient applications and isolate themselves from common failures.
+
+
+
+ EC2 Pricing Models:
+ ==================
+
+ * On Demand
+ * Reserved
+ * Spot
+ * Dedicated Hosts
+
+ On Demand:
+ ----------
+    Pay by the hour (In Exam)
+    Allow you to pay a fixed rate by hour/second with no commitment.
+
+
+Reserved:
+-----------
+    Contract Based, pay upfront for commiment
+    Discount on hourly  rates.
+    High capacity reservation, with significant discount on hourly charge for a instance.
+
+Spot:
+----
+    Bid for capacity which you want. Greater savings.
+    Enable you to bid whatever price you want for instance capacity, providing even greater savings if apps have flexible start and end time.
+
+
+Dedicated hosts:
+==============
+
+* Physical EC2 instance Dedicated for your use.
+* Reduce costs by allowing you to use existing server-bound software licenses.
+
+
+on Demand:
+---------
+
+    * Low costs
+    * Flexibility of EC2
+    * No upfront charges or long - term commitment.
+    * short-term or unpredictable workloads
+    * Apps developed in EC2 for the first time.
+
+
+Reserved:
+========
+
+* Steady state or predictable usage
+* Apps that need reserved capacity
+* Users able to make upfront payments to reduce their total computing costs.
+* Standard RI's (75% discount on demand)
+* Convertible RI's (54% discount on demand)
+* Scheduled RI's - time window within you reserve.
+
+
+Spot:
+=====
+
+* Apps with flexible start and end times.
+* Apps that are feasible only at very low compute prices.
+* Urgent computing needs with large amount of additional capacity.
+
+
+Dedicated Hosts:
+===============
+
+* Dedicated EC2 server for your use.
+* useful for regulatory requirements that may not support multi-tenant virualization.
+* Great for licensing which does not support multi-tenancy or cloud deployments.
+* Can be purchased on demand(hourly)
+* Can be purchased as reservation for upto 70% off the on demand price.
+
+
+Ec2 Instance Family Types: (10)
+==========================
+
+
+R4 - Memory Optimized  -> memory intensive apps/DB's 
+M4 - General Purpose - Application servers
+C4 = Compute Optimized - CPU intensive APps/DB's
+D2 - Dense Storage - File Storage, data warehousing/Hadoop
+G2 = Graphics Intensive = Video Encoding  and 3D  Application Streaming
+I2 = High Speed storage = No SQL DB's / Data warehousing
+T2 = Lowest cost, General Purpose = Webservers/ small DB's
+P2 = Graphics/ Genral purpose GPU = Machine Learning, bitcoin Mining Etc.
+X1 = memory Optimized = SAP HANA, Apache Spark etc.
+F1 = Field Programmable Gate Array = Hardware accelaration for your code.
+
+
+    DIRT MCG FPX:
+    ============
+
+    D2 = Dense Storage - Data Warehousing
+    I2 = High Speed Storage - NoSQL DB's
+    R4 - Ram Optimized 
+    T2 - Low cost General Purpose
+
+    M4 - General Purpose - Application Servers
+    C4 - Compute Optimized
+    G2 - Graphics intensive - Video encoding  & Real Time Streaming
+
+    F1 - Field Programmable Gate Array - H/w Accelaration for your code.
+    X1 - RAM Optimized - SAP HANA, Apache Spark etc.
+    P2 - Graphics/General Purpose GPU = Machine Learning/Big Data.
+
+
+
+
+
+    Lists of Ec2 Types:
+    ===================
+
+    R4 - Ram Optimized
+    M4 - Application servers
+    C4 - Compute Optimized
+    D2 - Dense Storage - Hadoop/Data warehousing
+    T2 - Low cost General Purpose - Web servers
+    I2 - High Speed storage - NoSQL DB's
+    G2 - Graphics Intensive - Video Encoding and 3D video Streaming
+    P2 - Graphics intensive - Machine Learning and Bitcoin mining etc.
+    X1 - Memory Optimized - SAP HANA and Apache Spark.
+
+
+    DIRT MCG FPX
+    =============
+
+
+    D2 - Dense Storage - Data warehousing / Hadoop
+    I2 - High Speed Storage- NoSQL Databases
+    R4 - Ram Optimized
+    T2 = Low cost General purpose - Web servers
+
+    M4 - Application servers
+    C4 - Compute Optimized
+    G2 - Graphics intensive - video Encoding and 3D video Streaming
+
+    F1 - Field rogrammable Gate Array - H/w accelaration for code.
+    P2 - General purpose GPU - Machine Learning and Bitcoin mining etc.
+    X1 - Memory Optimized  - SAP HANA, Apache Spark etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

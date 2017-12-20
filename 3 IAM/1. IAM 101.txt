@@ -1,0 +1,39 @@
+IAM 101:
+--------
+
+    * Configure Who uses AWS 
+    * Manage users and level of access on the AWS console.
+    * Important to understand IAM and how it works for both exam and organization purposes.
+
+
+    What IAM gives:
+    ---------------
+
+    * Centralized control
+    * Shared access
+    * Granular Permissions
+    * Identity Federation (including Active Directory,Facebook and Linkedin). Sign in using Single-sign on
+    * MFA (Multi Factor Authentication) on root account
+    * Temporary Access to users/devices and services
+    * Passsword Rotation Policy
+    * Integrates with many AWS services
+    * Supports PCI DSS Compliance.
+
+
+    Critical Terms:
+    --------------
+
+    * Users - End Users
+    * Group - Collection of users under one set of Permissions
+    * Roles - You create roles and assign them to AWS resources.
+    * Policies - A documents that defines permissions.
+
+
+    
+    
+
+
+
+
+
+

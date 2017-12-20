@@ -1,0 +1,65 @@
+Upgrading EBS Volume Types:
+===========================
+
+EBS Lab:
+========
+
+
+* All EBS volumes should be in the same availability Zones
+* How to find root volumes is by snapshots
+* Snapshot is simply an amazon machine image (AMI).
+* No Downtime when upgrading EBS volumes.
+* Standard is pure magentic. Cannot modify volumes.
+* Magnetic volumes cannot be modifed.
+
+
+***********************************************************************************
+* To move an  EC2 instance and EBS volume from 1 AZ to another, 
+
+	* Create a snapshot of the volume.
+	* Copy the snapshot to the new Region by creating an AMI Image.
+	* Can now move it to separate AZ or Regions.  
+	* Create an image of the snapshot and will be able 2 boot the volume.
+
+**********************************************************************************
+
+Boot it as a new EC2 instance:
+=============================
+
+
+* Snapshot is just a way to create backups.
+* By default, Root volumes are terminated.
+
+Recap:
+=====
+
+* Volume is just a virtual hard disk
+* Snapshots exists on S3.
+* Snapshots are just point in time of volumes.
+* Snapshots are incremental - blocks that are changed since last snapshot are moved to S3.
+* If first snapshot, it can take some time.
+* For root EBS volumes, we must stop the EC2 instance and then take the snapshot
+* While instance is running we can take snapshot.
+* You can create an AMI for both Volume and snapshots.
+* Change EBS volumes size on the fly including storage types and size.
+* Volumes will be in the same AZ as the EC2 instance
+* To move an EC2 Volume from one AZ/Region, we need to create an snap or image of it, and then move it to the new AZ/Region.
+
+
+Security:
+=========
+
+* Snapshots of encrypted volumes are encrypted automatically.
+* Volumes restored from encrypted volumes are encrypted automatically.
+* Share snapshots only when they are unencrypted.
+* Snapshots can be shared with other aws account.
+
+
+
+
+
+
+
+
+
+

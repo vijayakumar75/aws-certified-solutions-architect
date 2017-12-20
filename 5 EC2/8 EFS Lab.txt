@@ -1,0 +1,34 @@
+EFS LAB:
+=======
+
+What is EFS:
+===========
+
+Elastic File System:
+====================
+
+* File storage service for EC2 instances.
+* Create and configure File systems for EC2
+* Storage capacity is elastic, shrink and grow as you add and remove files and when needed.
+* Block based storage.
+
+
+
+Features:
+=========
+
+	 * Network File system V4 (NFSv4)
+	 * Pay for the storage that we use.
+	 * 30 Cents / GB
+	 * Scale upto Petabyte.
+	 * Support concurrent NFS connections
+	 * Data is stored acorss multiple AZ within a region.
+	 * EFS is block based storage.
+	 * Read after write consistency.
+
+	 * Connect 2 EC2 instances with ELB and EFS (Block Storage)
+
+	 * sudo su
+	 * yum install httpd -y
+	 * service httpd start
+	 * chkconfig httpd on

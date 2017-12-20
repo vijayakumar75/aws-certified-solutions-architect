@@ -1,0 +1,24 @@
+S3 Lab:
+-------
+
+    Versioning
+    Static-site Hosting
+    Logging
+
+
+    Advanced Settings:
+    ------------------
+
+    Tags
+    Cross-Region Replication
+    Transfer Accelaration
+    Events
+
+
+    Lifecycle Management:
+    --------------------
+    Segregate data based on time
+    ACL
+    Analytics
+    Metrics
+    Inventory - Sub folder within buckets

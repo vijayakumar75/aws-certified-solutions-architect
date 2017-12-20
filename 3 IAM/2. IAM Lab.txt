@@ -1,0 +1,11 @@
+IAM LAB:
+---------
+
+    * IAM is Global   
+    * Create a IAM users sign-in link
+    * Activate MFA using Google Authenticator
+    * Add users
+    * Assign users to groups
+    * Add Permission based on groups and individual users
+    * Add role so that services can interact with one another
+    * Create Polices to groups and individual users
