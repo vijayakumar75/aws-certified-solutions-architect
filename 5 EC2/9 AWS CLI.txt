@@ -13,4 +13,8 @@ config credentials
 
 nano credentials
 
+aws ec2 describe-instances
+
+aws ec2 terminate-instances --instance-ids 
+
 
