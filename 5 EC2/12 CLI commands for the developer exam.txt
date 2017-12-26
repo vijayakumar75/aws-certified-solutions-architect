@@ -4,3 +4,4 @@ CLI commands for the developer exam:
 describe-instances
 describe-images
 run-instances
+terminate-instances
