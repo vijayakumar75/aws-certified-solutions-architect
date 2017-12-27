@@ -22,7 +22,7 @@ Security Groups:
 
      cd /var/www/html
      * nano index.html
-    
+
     <html><h1>Hello Cloud Guru's </h1></html>
 
 
@@ -35,10 +35,10 @@ Security Groups:
      ===============
 
     * All Traffic
-    * Custom 0.0.0.0/0  
+    * Custom 0.0.0.0/0
 
 
-    All = Default Security Group    
+    All = Default Security Group
 
 
     Combines multiple security Group to  add all ports.
@@ -56,7 +56,7 @@ Security Groups Lab:
 * Multiple security group attached to a single ec2 instance.
 * Security groups are stateful.
 * If you create an inbound rule allowing traffic, in that traffic is automatically allowed back out again.
-* Cannot block specific IP address using Security Groups
+* Cannot block specific IP address using Security Groups.
 ------------------------------------------------------
 * Only Allow Traffic, Cannot deny traffic or IP address.
 -------------------------------------------------------
