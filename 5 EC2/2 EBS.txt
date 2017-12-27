@@ -21,7 +21,7 @@ Elastic Block Storage;
    * Provisioned IOPS SSD(IO1):
      ==========================
 
-     Designed for large I/0 instensive apps such as NoSQL DB's 
+     Designed for large I/0 instensive apps such as NoSQL DB's
      Use when more than 10,000 IOPS are needed.
      Can Provision about 20,000 IOPS per volume.
 
@@ -34,8 +34,8 @@ Elastic Block Storage;
         * Log processing.
         * Cannot be a boot volume.
 
-   * cold HDD 
-   ==========
+   * cold HDD:
+   ===========
 
   * Lowest cost storage for infrequently accessed workloads.
   * File Server
