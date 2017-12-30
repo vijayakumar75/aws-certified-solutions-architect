@@ -1,0 +1,13 @@
+Elastic Load Balancer:
+======================
+
+*   Spread load across web servers
+* No Public IPs for ELB
+* Only Public DNS
+* Instances monitored by ELB are:
+
+    InService or OutOfService
+    Health checks check instance health by talking to it.
+    Have their own DNS Name
+    
+
