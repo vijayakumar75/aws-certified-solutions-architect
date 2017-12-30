@@ -1,0 +1,16 @@
+SDK Exam Tips:
+==============
+
+* https://aws.amazon.com/tools
+
+* Android,iOS and JS
+* Java
+* .NET
+* Node.JS
+* PHP
+* Python
+* RUby
+* Go
+* C++
+
+Default Region = US-East-1
