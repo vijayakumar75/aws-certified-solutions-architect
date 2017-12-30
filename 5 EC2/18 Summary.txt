@@ -1,0 +1,147 @@
+Summary:
+==========
+
+Know differences between
+
+    On Demand
+    Spot
+    Reserved 
+    Dedicated Hosts
+
+
+EBS Types:
+
+    General Purposed(GP2) 10,000
+    Provisioned IOPS (IO1) more than 10,000
+    Throughput optmizied (ST1) - Frequently accessed workloads - not bootable
+    Cold HDD (SC1)- Less Frequently accessed workloads - not bootable 
+    Magnetic HDD - cheap, infrequently accessed workloads.
+
+
+You cannot mount 1 EBS volume to multiple Ec2 instances, instead use EFS.
+
+* Termination Protection is turned by off
+* EBS backed instances are deleted when the ec2 instance is terminated.
+    Root Volumes cannot be encrypted by default.
+
+
+    * Volumes exist in EBS
+    * Virtual Hard Disk
+    * Snapshot exists in S3 and are point in time copies of Volumes
+    * Snapshot are incremental.
+    * First Snaphost,, takes some time to create
+
+    * Snaphosts of encrypted volumes are encrypted automatically.
+    * Volumes restored from encrypted snapshots are encrypted.
+    * You can share snapshots, but only if they are unencrypted.
+    * Can be shared with ohter AWS accounts.
+
+
+    To create a snapshot for EBS that serve as root, we must stop the instance before taking a snapshot.
+
+
+    * Instance store volumes are called as Ephemeral Storage.
+    * Instance store volumes cannot be stopped. If the underlying host fails, you will lose data.
+    * EBS backed instances can be stopped. YOu will not lose data of this instance if stopped.
+    * Both can be rebooted.
+    *By Default,root volumes are deleted on termination. with EBS we can tell ec2 instance to keep the root device volume.
+
+
+    How to take a snapshot of an RAID array?
+    ========================================
+
+    Stop the app from writing to disk.
+    Flush all caches to the disk.
+
+    How can we do this?
+        - Freeze the FS.
+        - unmount the raid array.
+        - Shutting down associated Ec2 instance.
+
+
+    AMI's are regional.
+    YOu can launch an AMI only from the region it is stored.
+    Copy AMI's to other regions using console, CLI or EC2 API.
+
+
+
+    Cloudwatch:
+    ============
+
+    standard Monitoring  = 5 minutes
+    Detailed Monitoring = 1 minutes.
+
+    Cloudwatch is for performance Monitoring.
+    CloudTrail is for auditing.
+
+
+    Dashboards:
+    -----------
+
+        - Create Dashboards for monitoring the AWS Environment.
+        - Create alarams for thresholds.
+        - Events
+        - Logs _ Helps to aggrgate ,monitor and store logs.
+        
+        
+    Roles
+         - More secure that storing your access and secret KEY on individual instances
+         - Easier to Manage
+         - Roles can be assigned to a Ec2 instance after it has been Provisioned.
+         - Roles are universal.
+
+    Instance MetaData:
+    =================
+
+    curl https://169.254.169.254/latest/meta-data/public/-ipv4
+
+
+
+
+    EFS Features:
+    =============
+
+    - NFSv4
+    - Pay for storage which you use.
+    - 30 cents / GB
+    - Can support multiple concurrent connections.
+    - Data is stored in multiple AZ's within a region.
+    - Read after write consistency.
+
+
+    Lambda:
+    =========
+
+    Upload the code and lambda manages the infrastructure.
+
+    - Event Driven Compute Service.
+    - Compute Service response to HTTP Requests.
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
