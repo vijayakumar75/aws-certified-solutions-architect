@@ -1,2 +1,16 @@
 Lambda:
 ========
+
+ Data Center's
+ IaaS
+ PaaS
+ Containers
+ Serverless
+
+
+ Data Center
+ Hardwaree
+ Assembly Code/ Protocols
+ High Level Languages
+ Opearting Systems
+ App Layer
