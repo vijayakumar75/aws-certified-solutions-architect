@@ -1,0 +1,18 @@
+Create an S3 - Exam Tips
+=======================
+
+	Buckets have universal namespace
+	Upload an object to S3 receive HTTP 200 status code
+	S3, S3-IA and Reduced Redundancy Storage
+	Encryption
+
+		Client-side encryption
+		Server side Encryption
+			Amazon S3 Managed Keys
+			SSE KMS
+			SSE Customer Provided Keys
+
+		Control access to buckets using ACL or Bucket Policies
+		By Default Buckets are private and all objects stored inside are private.
+
+
