@@ -1,0 +1,8 @@
+S3 Version Control:
+==================
+
+	* Once versioning is enabled, we * cannot disable versioning.
+	* We can only suspend versioning.
+
+
+
