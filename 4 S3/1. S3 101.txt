@@ -94,9 +94,9 @@ S3 101 :
         Transfer Accelaration - 
         ----------------------
 
-            * Fast,easy and secure rransfer of files over long distances between end users and s3 buckets.
-            * Transfer Accelaration uses CloudFront globally distributed edge locations.
-            * As data arrives at an edge location, it is routed to Amazon S3 over a an optimized network path.
+        * Fast,easy and secure Transfer of files over long distances between end users and s3 buckets.
+        * Transfer Accelaration uses CloudFront globally distributed edge locations.
+        * As data arrives at an edge location, it is routed to Amazon S3 over a an optimized network path.
             
 
 
