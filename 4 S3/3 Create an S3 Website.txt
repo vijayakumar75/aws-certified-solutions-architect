@@ -1,0 +1,9 @@
+Create an S3 Website:
+======================
+
+	* Can enable Static Website hosting
+	* Bucket name s3 region name
+	* Make the S3 bucket public
+
+	
+
