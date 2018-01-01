@@ -14,11 +14,11 @@ EBS Lab:
 
 
 ***********************************************************************************
-* To move an  EC2 instance and EBS volume from 1 AZ to another, 
+* To move an  EC2 instance and EBS volume from 1 AZ to another,
 
 	* Create a snapshot of the volume.
 	* Copy the snapshot to the new Region by creating an AMI Image.
-	* Can now move it to separate AZ or Regions.  
+	* Can now move it to separate AZ or Regions.
 	* Create an image of the snapshot and will be able 2 boot the volume.
 
 **********************************************************************************

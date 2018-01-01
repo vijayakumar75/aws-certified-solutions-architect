@@ -23,7 +23,7 @@ Launch an Ec2 Instance Part 2:
  SSH into Ec2
  Security groups
  How to enable access on Port 22,80,443.
- Ec2 security patches and apache and web page and navigate t oit.
+ Ec2 security patches and apache and web page and navigate to it.
  Public DNS and public IP addresses.
  Tags
 
