@@ -1,0 +1,7 @@
+CORS Configuration:
+===================
+
+	* Allowing one resource to access another
+	* Use the domain URL instead of S3 URL
+	
+
