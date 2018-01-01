@@ -1,0 +1,12 @@
+Build an Alexa Skill:
+===================
+
+	Skill Service => Lambda
+
+	Skill Interface => 
+
+				Invocation name
+				Intent Schema
+				Slot Type
+				Utterances
+				
