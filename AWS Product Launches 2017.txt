@@ -1,0 +1,43 @@
+Reinvent 2017:
+===============
+
+
+    Aurora:
+    =======
+
+        Aurora Multi Master
+        Multi Region Multi Master - 2018
+            * scale out for both reads and writes
+        
+
+        Pay only for the DB's I use ?
+
+     Aurora Serverless:
+     ===================
+
+        On Demand auto-scaling DB for apps with unpredictable workloads or cyclical workloads.
+
+
+
+    DynamoDB :
+    ==========
+
+        Replicate across regions
+        DynamoDB Global Tables
+
+            Fully managed, multi master, multi region Database.
+
+    DynamoDB Backup and Restore:
+    -----------------------------
+
+        On Demand Continuous backup.
+        Point in time restore.
+
+    
+
+    Amazon Neptune:
+    ===============
+
+        Fully Managed Graph Database
+    
+
