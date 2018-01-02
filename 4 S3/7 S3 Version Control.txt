@@ -1,8 +1,34 @@
 S3 Version Control:
 ==================
 
-	* Once versioning is enabled, we * cannot disable versioning.
+	* Once versioning is enabled, we cannot disable versioning.
 	* We can only suspend versioning.
+
+	Permissions:
+	===========
+
+		Enable versioning
+		User Permissions
+		Public Permissions
+
+	Both bucket and Object Level Permissions.
+
+
+	* If we delete a version, we cannot restore the version
+	* But If we delete the object, we can restore the Object
+
+
+	S3 Versioning Exam Tips:
+	==========================
+
+	* Stores all version of an Object
+	* Great backup tool
+	* Once enabled, versioning cannot be disabled.
+	* Integrates with Lifecycle Rules.
+	* versioning's MFA delete capability, which uses MFA, can provide aditional layer of security
+	
+
+
 
 
 
