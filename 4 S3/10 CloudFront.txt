@@ -7,7 +7,63 @@ CloudFront:
 Edge Location:
 ==============
 
-	Location where the content will be cached.
-	This is separate to a AWS Region. AZ
+	* Location where the content will be cached.
+	* This is separate to a AWS Region. AZ
+
+Origin:
+=======
+
+	* This is the region of the files from which CDN will distribute.
+	* S3 Bucket, EC2, ELB or Route 53.
+
+Distribution:
+=============
+
+	Name given to CDN which consists of Edge locations.
+
+CloudFront:
+------------
+
+	* Deliver entire website, including dynamic, static and streaming and interactive content using a global network of edge locations.
+
+	* Requests for the content are routed to the nearby edge location,so content is deliverd much faster.
+
+	* Optimized to work with'
+
+				S3
+				EC2
+				ELB
+				Route 53
+
+
+
+	Web Distribution:
+	----------------
+
+		* Typically used for websites.
+		* RTMP - Media streaming (Adobe Flash)
+
+
+	Exam Tips:
+	==========
+
+	 Edge Location - location where content is cached.
+	 Origin - origin of the files  CDN will be distributing.
+	 Distribution - Collection of Edge locations.
+	 	Web - used for websites.
+		RTMP - Media Streaming
+
+	* Edge Locations are not only READ only, can write to them. (put an object)
+	* Objects are cached for the time of TTL.
+	* You can clear cached objects, but will be charged.
+	* Can invalidte object, but are charged for that.
+
+
+
+
+
+
+			
+
 
 	
