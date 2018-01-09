@@ -1,0 +1,10 @@
+Lifecycle Management:
+=======================
+
+
+    * Can be used in conjunction with versioning.
+    * can be applied to both current and previous versions.
+    * Transition to Standard - IA (128 kB and 30 days)
+    * Archive to Glacier Storage class (default 30 days)
+    * Permanently delete objects.
+        
