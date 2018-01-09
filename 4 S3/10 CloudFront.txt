@@ -1,0 +1,13 @@
+CloudFront:
+=============
+
+* CDN is a distributed servers that deliver webpages and other web content to a user based on geographical location, origin of the webpage, and a content delivery server.
+
+
+Edge Location:
+==============
+
+	Location where the content will be cached.
+	This is separate to a AWS Region. AZ
+
+	
