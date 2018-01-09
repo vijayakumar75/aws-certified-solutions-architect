@@ -68,7 +68,7 @@ S3 101 :
         S3 - IA (Infrequently Accessed):
         -------------------------------
             * Example: Pay Slips
-            * For data that is acessed infrequently but requires rapid access when needed.
+            * For data that is accessed infrequently but requires rapid access when needed.
             * Lower fee than S3 but retrieval fee is charged.
         
         Reduced Redudancy Storage
