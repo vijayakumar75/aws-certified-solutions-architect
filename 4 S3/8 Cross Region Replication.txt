@@ -1,0 +1,21 @@
+Cross Region Replication:
+=========================
+
+* In order to enable Cross Region Replication, versioning needs to be turned on for both buckets.
+* Only new objects that are added, are replicated to the destination buckets.
+* Existing buckets are not replicated.
+* When we delete a delete marker, it is not replicated.
+* When we delete version, they are not deleted on the destination bucket.
+
+
+* Versioning must be enabled both source and destination buckets.
+* Regions must be unique.
+* Fiels in an existing bucket are not replicated automatically.
+* All subsequent updated are replicated automatically.
+* You cannot replicate multiple buckets or daisy chaining.
+* Delete markers are replicated.
+* Deleting individual versions  or delete markers will not be replicated.
+* Understand Cross-Region replication is high level.
+* 
+
+
