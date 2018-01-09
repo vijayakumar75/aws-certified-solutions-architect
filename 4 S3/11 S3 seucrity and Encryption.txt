@@ -1,0 +1,30 @@
+S3 Security and encryption:
+===========================
+
+* By default, all new objects are private.
+* You can setup ACL to your buckets using.
+
+    Bucket Policies
+    ACL
+* Can be  configured to create access logs which logs all requests made to S3.
+* 
+
+Encryption:
+===========
+
+    In Transit
+    ----------
+        SSL/ TLS
+    
+    AT Rest:
+    --------
+
+        Server side encryption
+            S3 Managed Keys - SSE - S3
+            AWS KMS - SSE - KMS
+            SSE with customer provided Keys - SSE C
+
+    Client Side Encryption:
+    -----------------------
+
+    
